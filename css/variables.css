@@ -1,0 +1,7 @@
+:root {
+  --yellow: #fae100;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --background-color: rgb(174, 197, 225);
+  --chat-room__background-color: #abc1d1;
+}

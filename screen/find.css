@@ -1,0 +1,124 @@
+.find-recommended__friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.5;
+}
+.find-recommended__friends span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+}
+.find-openchat__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  opacity: 0.5;
+}
+.find-openchat__header-goto {
+  opacity: 0.6;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.open-post__title {
+  font-size: 20px;
+}
+.open-post__hashtag {
+  text-transform: uppercase;
+  font-size: 18px;
+  opacity: 0.4;
+  margin: 10px 0px;
+}
+.open-post__left-bottom {
+  display: flex;
+  align-items: center;
+}
+.open-post__sm-image {
+  width: 23px;
+  height: 23px;
+  border-radius: 40%;
+}
+.open-post__members {
+  margin-left: 7px;
+  opacity: 0.4;
+}
+.divider {
+  width: 1px;
+  height: 16px;
+  background-color: black;
+  opacity: 0.4;
+  margin: 0px 7px;
+}
+.open-post__active {
+  color: rgb(242, 44, 196);
+}
+.open-post__image {
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
+}
+.open-post__right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.open-post__like {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 6px 11px;
+  border-radius: 15px;
+  left: 398px;
+  bottom: 247px;
+}
+.open-post__like span {
+  margin-left: 3px;
+}
+.open-post__second {
+  margin-top: 14px;
+}
+.open-post__right-second {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.open-post__like-second {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 6px 11px;
+  border-radius: 15px;
+  left: 398px;
+  bottom: 108px;
+}
+.open-post__like-second span {
+  margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: whitesmoke;
+  }
+  50% {
+    color: orangered;
+    transform: scale(1.5);
+  }
+  100% {
+    color: whitesmoke;
+  }
+}
+.open-post__like-second:hover i,
+.open-post__like:hover i {
+  will-change: transform;
+  animation: heartBeat 0.5s ease-in-out infinite;
+}

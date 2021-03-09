@@ -1,0 +1,22 @@
+.badge {
+  background-color: orangered;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #f9f9fa;
+  font-weight: 600;
+}
+.badge-2 {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #f9f9fa;
+  font-weight: 600;
+}
